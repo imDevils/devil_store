@@ -1,0 +1,50 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台页面头部</title>
+<link href="/ThinkPHP/chuwei/Public/css/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body onselectstart="return false" oncontextmenu=return(false) style="overflow-x:hidden;">
+<!--禁止网页另存为-->
+<noscript><iframe scr="*.htm"></iframe></noscript>
+<!--禁止网页另存为-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="header">
+  <tr>
+    <td rowspan="2" align="left" valign="top" id="logo"><img src="/ThinkPHP/chuwei/Public/images/main/logo.jpg" width="74" height="64"></td>
+    <td align="left" valign="bottom">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="bottom" id="header-name">九牧卫浴后台管理</td>
+        <td align="right" valign="top" id="header-right">
+        	<a href="loginout" target="_top" onFocus="this.blur()" class="admin-out">注销</a>
+            <a href="index" target="_top" onFocus="this.blur()" class="admin-home">登录</a>
+        	<a href="/ThinkPHP/chuwei/index.php" target="_blank" onFocus="this.blur()" class="admin-index">网站首页</a>       	
+            <span>
+<!-- 日历 -->
+<SCRIPT type=text/javascript src="/ThinkPHP/chuwei/Public/js/clock.js"></SCRIPT>
+<SCRIPT type=text/javascript>showcal();</SCRIPT>
+            </span>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="top" id="header-admin">后台管理系统</td>
+        <td align="left" valign="bottom" id="header-menu">
+        <a href="/ThinkPHP/chuwei/admin.php/Index/main.html" target="mainFrame" onFocus="this.blur()">后台首页</a>
+        <a href="/ThinkPHP/chuwei/admin.php/Index/main_list.html" target="mainFrame" onFocus="this.blur()">用户管理</a>
+        <a href="/ThinkPHP/chuwei/admin.php/Index/main.html" target="mainFrame" onFocus="this.blur()">栏目管理</a>
+        <a href="/ThinkPHP/chuwei/admin.php/Index/main.html" target="mainFrame" onFocus="this.blur()">信息管理</a>
+		<a href="/ThinkPHP/chuwei/admin.php/Index/main_message.html" target="mainFrame" onFocus="this.blur()">留言管理</a>
+        <a href="/ThinkPHP/chuwei/admin.php/Index/banner_list.html" target="mainFrame" onFocus="this.blur()">图片管理</a>
+        <a href="/ThinkPHP/chuwei/admin.php/Index/main.html" target="mainFrame" onFocus="this.blur()">站点管理</a>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
